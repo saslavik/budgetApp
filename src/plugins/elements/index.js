@@ -13,7 +13,8 @@ import {
   Alert,
 } from 'element-ui';
 
-const elements = [Button,
+const elements = [
+  Button,
   Card,
   Form,
   FormItem,
