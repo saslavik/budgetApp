@@ -5,7 +5,7 @@
         <div class="list-item" v-for='(item, prop) in list' :key='prop'>
           <span class="budget-comment">{{ item.comment }}</span>
           <span class="budget-value">{{ item.value }}</span>
-          <elButton type="danger" size='mini'>Delete</elButton>
+          <elButton type="danger" size='mini'>Clear task</elButton>
         </div>
       </template>
       <ElAlert v-else type="info" :title="emptyTitle" :closable='false'/>
