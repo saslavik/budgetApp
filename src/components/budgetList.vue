@@ -23,7 +23,7 @@ export default {
   },
   data: () => ({
     header: 'Budget List',
-    emptyTitle: "Empty List"
+    emptyTitle: "Empty List",
   }),
   computed: {
     isEmpty() {
